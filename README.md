@@ -6,5 +6,6 @@ This project contains the real world data record of hotel bookings of a City and
 
 https://tabsoft.co/3ENdskX
 
-![Screenshot_20230301_203512](https://user-images.githubusercontent.com/112092937/222195364-52b92763-e624-4a19-9aa8-b0cfcf3fc587.png)
+![Screenshot_20230301_215229](https://user-images.githubusercontent.com/112092937/222200217-03a8db28-48b7-4922-9f24-9acb8851b6d1.png)
+
 
