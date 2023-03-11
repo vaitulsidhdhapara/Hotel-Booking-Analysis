@@ -41,7 +41,13 @@ This dataset contains booking information for a city hotel and a resort hotel. I
 - total_of_special_requests: total no. of special request.
 - reservation_status: Whether a customer has checked out or canceled,or not showed 
 - reservation_status_date: Date of making reservation status.
+
+Total number of rows in data: 119390
+
+Total number of columns: 32
+
 # Dashboard - Hotel Booking Analysis
+
 
 https://tabsoft.co/3ENdskX
 
