@@ -46,6 +46,76 @@ Total number of rows in data: 119390
 
 Total number of columns: 32
 
+# Data Cleaning and Feature Engineering
+## (1) Removing Duplicate rows
+
+All duplicate rows were dropped.
+
+## (2) Handling null values
+
+Null values in columns company and agent were replaced by 0.
+
+Null values in column country were replaced by mode.
+
+Null values in column children were replaced by the mean of the column.
+
+## (3) Converting columns to appropriate data types
+
+Changed data type of children, company, agent to int type.
+
+Changed data type of reservation_status_date to date type.
+
+## (4) Creating new columns
+
+Created new column total_stay by adding stays_in_weekend_nights+stays_in_week_nights.
+
+Created new column total_people by adding adults+children+babies.
+
+
+# Exploratory Data Analysis
+
+Performed EDA and tried answering the following questions:
+1) Which year have a more number of bookings?
+2) How many bookings are done in every year according to the hotel?
+3) What is the booking cancellation ratio?
+4) Which hotel has higher bookings cancellation rate?
+5) Which month has maximum bookings?
+6) Which agent does the most bookings?
+7) Which agent has the lowest booking cancellation ratio?
+8) Which distribution channel has highest booking rate?
+9) Which distribution channel has highest cancellation percentage?
+10) Which type of deposit is preferred by customers?
+11) Which type of food(meal) is preferred by customers?
+12) Which country has the highest number of bookings by customers?
+13) Which is the most booked accommodation type (Single, Couple, Family)?
+14) Which type of room is most in demand?
+15) How many nights guests choose to stay the hotel?
+16) What is the ratio of repeated guest?
+17) Which month has the highest ADR (Hotel wise)?
+18) What is the average ADR of hotel?
+19) By which market segment are the most bookings done?
+20) Which market segment has the longest lead time?
+21) Relationship between number of Total Stay and ADR.
+22) Correlation between two parameters.
+
+
+# Conclusion
+- Overall ADR of City hotel is slightly higher than Resort hotel. 
+- Mostly guests stay for less than 4 nights in hotel and for longer stays they preferred Resort 
+hotel.
+- 4% of visitors return for another booking at the City Hotel, and 6% of visitors return to the 
+Resort hotel for another stay.
+- Europeans and Portuguese are the majority of guests.
+- Mostly preferred channel for booking is TA/TO
+- Booking cancellation ratio in TA/TO is 30%
+- July- August are the busier and most profitable months for both of hotels. 
+- Couples are the most common guests for hotels; hence hotels can plan services according to 
+couples needs to increase revenue.
+- Low ADR for longer stays (more than 15 days)
+- Booking cancellation ratio - 27.5%.
+- Agent 9 is done more number of bookings while Agent 464 has lowest cancellation ratio.
+- When it comes to longer stays in hotel, guest do plan much in advance
+
 # Dashboard - Hotel Booking Analysis
 
 
